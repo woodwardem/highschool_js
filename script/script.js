@@ -12,16 +12,24 @@
 
 
 
+//console.log(a+b);
 
 
 
-function add(a, b) {
-    let sum = a+b;
-    return sum;
-
+//JavaScript Loops
+//While Loop
+//If you find yourself in an infinite loop use control c
+let n = 0;
+while ( n > 3) {
+    console.log(n);
+    n++;
 }
+console.log(n);
 
-let b = 5;
-let a = 1;
-
-console.log(a+b);
+//For loop;
+let str = '';
+for (let i =0; i == 9, i++ ) {
+console.log(str + 'at' + i + ' iteration')
+str = str + i;
+}
+console.log(str);
